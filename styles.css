@@ -1,0 +1,125 @@
+/* Fonts and colors */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+}
+
+header .subtitle {
+    font-size: 1.4em;
+    color: #555;
+    margin: 5px 0;
+}
+
+header .contact-info {
+    margin-top: 15px;
+}
+
+header .contact-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+header a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #2980b9;
+}
+
+/* Navigation */
+header nav {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+header nav a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+.section-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+/* Publication links */
+#publications a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#publications a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}

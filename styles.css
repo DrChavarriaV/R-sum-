@@ -39,6 +39,7 @@ header {
     border: 4px solid #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     object-fit: cover;
+    transition: all 0.3s ease; /* Suaviza la transición */
 }
 
 .profile-info {
@@ -134,32 +135,25 @@ strong {
     }
 
     .profile-photo img {
-        width: 120px;
-        height: 120px;
+        width: 100%; /* Ocupa todo el ancho disponible */
+        height: auto; /* Altura automática para mantener la proporción */
+        border-radius: 10px; /* Cambia a forma rectangular */
+        max-width: 300px; /* Limita el ancho máximo */
+        margin: 20px 0; /* Espacio arriba y abajo */
     }
 
     .profile-info h1 {
         font-size: 2em;
+        margin-bottom: 10px; /* Espacio debajo del nombre */
     }
 
     .profile-info .subtitle {
         font-size: 1em;
-    }
-
-    .contact-info p {
-        font-size: 0.9em;
+        margin-bottom: 20px; /* Espacio debajo del subtítulo */
     }
 
     nav {
-        font-size: 0.9em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    ul li, ol li {
-        font-size: 1em;
+        margin-top: 20px; /* Espacio arriba de la barra de navegación */
     }
 }
 
@@ -169,8 +163,7 @@ strong {
     }
 
     .profile-photo img {
-        width: 100px;
-        height: 100px;
+        max-width: 250px; /* Más pequeño en pantallas muy pequeñas */
     }
 
     .profile-info h1 {
@@ -178,22 +171,6 @@ strong {
     }
 
     .profile-info .subtitle {
-        font-size: 0.9em;
-    }
-
-    .contact-info p {
-        font-size: 0.8em;
-    }
-
-    nav {
-        font-size: 0.8em;
-    }
-
-    h2 {
-        font-size: 1.3em;
-    }
-
-    ul li, ol li {
         font-size: 0.9em;
     }
 }

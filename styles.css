@@ -138,7 +138,7 @@ strong {
         width: 100%; /* Ocupa todo el ancho disponible */
         height: auto; /* Altura automática para mantener la proporción */
         border-radius: 10px; /* Cambia a forma rectangular */
-        max-width: 300px; /* Limita el ancho máximo */
+        max-width: 400px; /* Aumentamos el ancho máximo */
         margin: 20px 0; /* Espacio arriba y abajo */
     }
 
@@ -163,7 +163,7 @@ strong {
     }
 
     .profile-photo img {
-        max-width: 250px; /* Más pequeño en pantallas muy pequeñas */
+        max-width: 350px; /* Más grande en pantallas muy pequeñas */
     }
 
     .profile-info h1 {

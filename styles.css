@@ -162,8 +162,8 @@ strong {
     }
 
     .profile-photo img {
-        width: 250px; /* Tamaño fijo para pantallas muy pequeñas */
-        height: 250px; /* Tamaño fijo para pantallas muy pequeñas */
+        width: 200px; /* Tamaño fijo para pantallas muy pequeñas */
+        height: 200px; /* Tamaño fijo para pantallas muy pequeñas */
     }
 
     .profile-info h1 {

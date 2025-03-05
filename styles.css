@@ -33,8 +33,8 @@ header {
 }
 
 .profile-photo img {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -135,16 +135,15 @@ strong {
     }
 
     .profile-photo img {
-        width: 100%; /* Ocupa todo el ancho disponible */
-        height: auto; /* Altura automática para mantener la proporción */
+        width: 250px; /* Tamaño fijo más grande */
+        height: 250px; /* Tamaño fijo más grande */
         border-radius: 10px; /* Cambia a forma rectangular */
-        max-width: 400px; /* Aumentamos el ancho máximo */
         margin: 20px 0; /* Espacio arriba y abajo */
     }
 
     .profile-info h1 {
         font-size: 2em;
-        margin-bottom: 250px; /* Espacio debajo del nombre */
+        margin-bottom: 10px; /* Espacio debajo del nombre */
     }
 
     .profile-info .subtitle {
@@ -163,7 +162,8 @@ strong {
     }
 
     .profile-photo img {
-        max-width: 450px; /* Más grande en pantallas muy pequeñas */
+        width: 200px; /* Tamaño fijo para pantallas muy pequeñas */
+        height: 200px; /* Tamaño fijo para pantallas muy pequeñas */
     }
 
     .profile-info h1 {

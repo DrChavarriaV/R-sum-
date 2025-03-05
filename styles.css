@@ -135,10 +135,15 @@ strong {
     }
 
     .profile-photo img {
-        width: 250px; /* Tamaño fijo más grande */
-        height: 250px; /* Tamaño fijo más grande */
+        width: 200px; /* Tamaño fijo más grande */
+        height: 200px; /* Tamaño fijo más grande */
         border-radius: 10px; /* Cambia a forma rectangular */
         margin: 20px 0; /* Espacio arriba y abajo */
+    }
+
+    .profile-info {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        text-align: center; /* Centra el texto */
     }
 
     .profile-info h1 {
@@ -149,6 +154,10 @@ strong {
     .profile-info .subtitle {
         font-size: 1em;
         margin-bottom: 20px; /* Espacio debajo del subtítulo */
+    }
+
+    .contact-info {
+        text-align: center; /* Centra la información de contacto */
     }
 
     nav {
@@ -162,8 +171,8 @@ strong {
     }
 
     .profile-photo img {
-        width: 200px; /* Tamaño fijo para pantallas muy pequeñas */
-        height: 200px; /* Tamaño fijo para pantallas muy pequeñas */
+        width: 180px; /* Tamaño fijo para pantallas muy pequeñas */
+        height: 180px; /* Tamaño fijo para pantallas muy pequeñas */
     }
 
     .profile-info h1 {
